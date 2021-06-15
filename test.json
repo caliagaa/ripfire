@@ -1,0 +1,35 @@
+{
+  "code" : "world4",
+  "label": "Digitalizacion",
+  "icon": "i-digital-small",
+  "priority": 1,
+  "duration": 30,
+  "caysBeforeExpiry": 10,
+  "showExpiryDate": true,
+  "levels": [
+    {
+      "code": "W4L1",
+      "label": "1",
+      "order": 1,
+      "prize": {
+        "category": "giftcard",
+        "label": "Giftcard por $50.000",
+        "value": 50000
+      },
+      "challenges": [
+        {
+          "code": "W4L1C1",
+          "label": "Ingresa a la PWA 10 veces",
+          "actions": [{
+            "eventId": "login",
+            "origin": "mobile",
+            "eventOnDifferentDays": true,
+            "amount": 0,
+            "count": 10,
+            "calculationType": "count"
+          }]
+        }
+      ]
+    }
+  ]
+}
