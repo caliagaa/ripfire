@@ -19,7 +19,7 @@
       "challenges": [
         {
           "code": "W4L1C1",
-          "label": "Ingresa a la PWA 10 veces",
+          "label": "Ingresa a la aplicacion 10 veces",
           "actions": [{
             "eventId": "login",
             "origin": "mobile",
