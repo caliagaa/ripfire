@@ -25,7 +25,6 @@ func Execute() {
 
 func init() {
 	cobra.OnInitialize(initConfig)
-	rootCmd.PersistentFlags().StringVar(&cfgFile, "config", "", "config file (default is $HOME/.ripfire.yaml)")
 }
 
 // initConfig reads in config file and ENV variables if set.
