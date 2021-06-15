@@ -7,6 +7,12 @@ Usage:
 $ripfire init --file credentials_file.json
 
 
-$ripfire upload -c [COLLECTION NAME] -d [JSON FILE NAME]
+$ripfire upload -c [COLLECTION NAME] -d [JSON FILE NAME] 
 
-*requires that collection is already created
+OPTIONAL : -n [DOCUMENT ID]
+
+
+*Collection has to be already created
+
+TODO:
+Handle upload json array and appropriate DOCUMENT ID 
